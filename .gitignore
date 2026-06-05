@@ -1,0 +1,24 @@
+# Java build artifacts
+*.class
+*.war
+*.jar
+*.ear
+target/
+
+# Maven / Gradle
+.gradle/
+build/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# WebLogic domain auto-generated files
+autodeploy/
+servers/
