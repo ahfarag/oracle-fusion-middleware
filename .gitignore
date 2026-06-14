@@ -22,3 +22,4 @@ Thumbs.db
 # WebLogic domain auto-generated files
 autodeploy/
 servers/
+.vagrant
