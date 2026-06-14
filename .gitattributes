@@ -1,0 +1,6 @@
+# Set default behavior to automatically normalize all text files
+* text=auto
+
+# Explicitly declare files that MUST keep CRLF (Windows style, like batch files)
+*.bat text eol=crlf
+*.cmd text eol=crlf
