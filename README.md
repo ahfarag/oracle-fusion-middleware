@@ -19,6 +19,12 @@ Each guide is self-contained and includes all the steps needed to get up and run
 
 ## 🔗 SOA Suite
 
+### 14c (14.1.2.0.0)
+
+| # | Guide | Description |
+|---|---|---|
+| 01 | [Getting Started](./soa-suite/14c/01-getting-started/) | Run JDeveloper SOA Quick Start 14c using Docker |
+
 ### 12c (12.2.1.4)
 
 | # | Guide | Description |
