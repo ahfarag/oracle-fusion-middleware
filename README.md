@@ -31,6 +31,7 @@ Each guide is self-contained and includes all the steps needed to get up and run
 |---|---|---|
 | 01 | [Getting Started](./soa-suite/12c/01-getting-started/) | Run JDeveloper SOA Quick Start 12c using Docker |
 | 02 | [WLST Basics](./soa-suite/12c/02-wlst-basics/) | Connect with WLST and save credentials |
+| 03 | [Users and Groups](./soa-suite/12c/03-users-and-groups/) | Create a user and group using WLST |
 
 ---
 
