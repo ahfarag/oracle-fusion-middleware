@@ -83,12 +83,16 @@ This directory will be mounted into the container to persist your JDeveloper wor
 
 ## Step 6 — Run the Container
 
+Set `REPO_LOC` to the **absolute** path of your clone of this repo, e.g. `/home/<user>/oracle-fusion-middleware`. Docker does not accept relative paths here. The 14c guides folder is mounted at `/u01/oracle/guides`, so later guides can run their scripts directly.
+
 ```bash
+REPO_LOC=<Repo location>
 docker run --name soa-qs-14c -ti \
   --env DISPLAY=<YOUR_MOBAXTERM_IP>:0.0 \
   -p 7101:7101 \
   -v $MNT_LOC/.jdeveloper:/u01/oracle/.jdeveloper \
   -v $MNT_LOC/jdeveloper/mywork:/u01/oracle/jdeveloper/mywork \
+  -v "$REPO_LOC"/soa-suite/14c:/u01/oracle/guides \
   soa_qs:14.1.2
 ```
 
