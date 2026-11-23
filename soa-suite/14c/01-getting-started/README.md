@@ -2,7 +2,7 @@
 
 # 01 — Getting Started: Running JDeveloper SOA Suite Quick Start 14c with Docker
 
-A guide to run Oracle JDeveloper SOA Quick Start 14.1.2.0.0 using Docker, with a customized image based on Oracle JDK 8 and Oracle Linux 8.
+A guide to run Oracle JDeveloper SOA Quick Start 14.1.2.0.0 using Docker, with a customized image based on Oracle JDK 21 and Oracle Linux 9.
 
 > 📌 Credit: This guide is based on [damasiormoura/soasuitequickstart_docker_image](https://github.com/damasiormoura/soasuitequickstart_docker_image), modified to use the JDeveloper SOA Quick Start 14.1.2.0.0.
 
@@ -132,7 +132,7 @@ http://<UBUNTU_VM_IP>:7101/rconsole
 
 ## Verify
 
-After the fix, log into the Service Bus console `http://<UBUNTU_VM_IP>:7101/servicebus` and confirm it loads without errors.
+Once the integrated server is running, log into the Service Bus console `http://<UBUNTU_VM_IP>:7101/servicebus` and confirm it loads without errors.
 
 ---
 
